@@ -44,3 +44,14 @@ p {
   color: #2e1c12;
   font-size: 22px;
 }
+body {
+    background-image: url('background-image.jpg');
+    
+    background-size: cover; 
+    
+    background-position: center; 
+    
+    background-repeat: no-repeat; 
+    
+    background-attachment: fixed; 
+}
