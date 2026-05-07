@@ -8,7 +8,7 @@
 /* Page background and font */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #f4f4f4;
+  background: #b68e65;
   color: #333;
   text-align: center;
   padding-top: 100px;
@@ -18,7 +18,7 @@ body {
 h1 {
   font-size: 48px;
   margin-bottom: 20px;
-  color: #2c3e50;
+  color: #966f33;
 }
 
 /* Paragraph text */
@@ -29,7 +29,7 @@ p {
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background-color: #d2b48c; /* wood tan */
+  background-color: #deb887; /* wood tan */
   text-align: center;
 }
 
