@@ -1,57 +1,39 @@
-/* Reset default spacing */
+/* 1. Global Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Page background and font */
+/* 2. Page Body Styles */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #b68e65;
-  color: #333;
-  text-align: center;
-  padding-top: 100px;
-}
-
-/* Main title */
-h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-  color: #966f33;
-}
-
-/* Paragraph text */
-p {
-  font-size: 20px;
-  color: #555;
-}
-body {
-  margin: 0;
-  font-family: Georgia, serif;
-  background-color: #deb887; /* wood tan */
-  text-align: center;
-}
-
-h1 {
-  color: #4b2e1e;
-  font-size: 50px;
-  margin-top: 120px;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-}
-
-p {
-  color: #2e1c12;
-  font-size: 22px;
-}
-body {
+    /* Background Image Settings */
     background-image: url('background-image.jpg');
-    
-    background-size: cover; 
-    
-    background-position: center; 
-    
-    background-repeat: no-repeat; 
-    
-    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #deb887; /* Fallback wood tan color */
+
+    /* Typography & Layout */
+    font-family: Georgia, serif;
+    color: #333;
+    text-align: center;
+    padding-top: 100px;
 }
+
+/* 3. Main Title (h1) */
+h1 {
+    color: #4b2e1e;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* 4. Paragraph Text (p) */
+p {
+    color: #2e1c12;
+    font-size: 22px;
+}
+
