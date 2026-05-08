@@ -1,39 +1,35 @@
 /* 1. Global Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* 2. Page Body Styles */
 body {
-    /* Background Image Settings */
-    background-image: url('background-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #deb887; /* Fallback wood tan color */
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #deb887;
 
-    /* Typography & Layout */
-    font-family: Georgia, serif;
-    color: #333;
-    text-align: center;
-    padding-top: 100px;
+  font-family: Georgia, serif;
+  color: #333;
+  text-align: center;
+  padding-top: 100px;
 }
 
 /* 3. Main Title (h1) */
 h1 {
-    color: #4b2e1e;
-    font-size: 50px;
-    margin-top: 120px;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  color: #4b2e1e;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
 /* 4. Paragraph Text (p) */
 p {
-    color: #2e1c12;
-    font-size: 22px;
+  color: #2e1c12;
+  font-size: 22px;
 }
-
