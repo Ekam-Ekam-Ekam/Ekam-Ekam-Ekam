@@ -1,35 +1,32 @@
-/* 1. Global Reset */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* 2. Page Body Styles */
+/* Background + page style */
 body {
   background-image: url('background-image.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #deb887;
 
   font-family: Georgia, serif;
-  color: #333;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
-/* 3. Main Title (h1) */
+/* Title */
 h1 {
+  font-size: 60px;
   color: #4b2e1e;
-  font-size: 50px;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
-/* 4. Paragraph Text (p) */
+/* Paragraph */
 p {
+  font-size: 24px;
   color: #2e1c12;
-  font-size: 22px;
 }
